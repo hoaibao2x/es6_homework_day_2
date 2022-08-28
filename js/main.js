@@ -7,7 +7,6 @@ let getList = () => {
     glassSer.getGlassList()
         .then((result) => {
             showOnUI(result.data);
-            console.log(result.data);
         })
         .catch((error) => {
             console.log(error);
